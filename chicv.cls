@@ -225,6 +225,15 @@
     \hspace{-20pt}
 }
 
+\NewDocumentCommand{\FreeLeek}{ m o }{
+    \faLaptop\IfNoValueTF{#1}{
+        \underline{\href{#1}{#1}}
+    }{
+        \underline{\href{#2}{#1}}
+    }
+    \hspace{-20pt}
+}
+
 % defines one's GitHub
 % usage: \github{<github>}
 \NewDocumentCommand{\github}{ m o }{

@@ -1,7 +1,7 @@
 % !TEX program = xelatex
 
 \documentclass{chicv}
-
+\usepackage{pdfpages}
 % optionally suppress printing the page number
 \pagenumbering{gobble}
 
@@ -12,99 +12,141 @@
 \begin{document}
 
 %% basic personal info
-\name{Chi Zhang}
+\name{Zehao Qian}
 \begin{basicinfo}
-  \info{\email{skyzh@cmu.edu}}
-  \info{\homepage{skyzh.dev}[https://skyzh.dev]}
-  \info{\github{skyzh}[https://github.com/skyzh]}
-  \info{\linkedinsquare{alex-chi-skyzh}[https://www.linkedin.com/in/alex-chi-skyzh/?originalSubdomain=cn]}
+  \info{\email{qianzehao123@gmail.com}}
+  \info{\homepage{Gitee Project}[https://gitee.com/qian_zehao]}
+  \info{\github{QianZehao123}[https://github.com/QianZeHao123]}
+  \info{\FreeLeek{FreeLeek \& OpenIE Foundation}[http://www.openie.xyz:803]}
   % \phone{}
 \end{basicinfo}
 
 \section{Education}
-\cventry{Carnegie Mellon University}
-  {August 2022 -- December 2023 (Expected)}
-  [Master of Science in Computer Science]
-  [Pittsburgh, PA, USA]
-\cventry{Shanghai Jiao Tong University}
-  {September 2018 -- June 2022}
-  [B.Eng in Computer Science and Technology]
-  [Shanghai, China]
+\cventry{Durham University}
+  {September 2023 -- July 2024 (Expected)}
+  [Master of Science in Data Science (Social Analytics)]
+  [Durham, England, British]
+\cventry{Zhengzhou University}
+  {September 2019 -- July 2023}
+  [B.Eng in Industrial Engineering]
+  [Zhengzhou, China]
   \begin{itemize}
-    \item GPA 93.58/100, Rank 1/149, National Scholarship 2019 (Top 0.2\% national-wide)
-    \item A+ Courses: Operating Systems, Computer Architecture, Computer Networks, and 28 others
+    \item GPA 82.75/100, Rank 23/102, Scholarship in 2019, 2021, 2022
+    \item A+ Courses: Electrotechnics, Contemporary Manufacturing System, Mechanical Manufacturing Engineering, IE software and Application, Enterprise Process Reformation, Engineering Optimization and 16 other programs
     % \item 长中文段落测试：「于是我们奋力前进，却如同逆水行舟，注定要不停地退回过去。」——《了不起的盖茨比》菲茨杰拉德
   \end{itemize}
 
-\section{Internship Experience}
-
-\cventry{Singularity Data, Inc.}
-  {August 2021 – July 2022}
-  [Database System R\&D Intern]
-  [Shanghai, China]
-
-\begin{itemize}
-  \item One of the top contributors of \iconlink[\faGithub][RisingWave]{https://github.com/singularity-data/risingwave} — a next-generation streaming database in the cloud. \\ Worked on the development of almost all components related to stream computing and state store.
-  \item Designed and implemented \textbf{shared state} to support \textbf{streaming index} in RisingWave; implemented \textbf{lookup join executor} based on shared state to support efficient \textbf{index delta joins}.
-  \item Lead the team to investigate and analyze \textbf{performance issues} in RisingWave with benchmarks; fixed bugs and proposed strategies which improved the system throughput by 10x in a 3-month period.
-  \item Greatly improved RisingWave’s development experience by initiating the \textbf{developer ecosyste}m, \\including \textbf{streaming system dashboard}, \textbf{developers’ tool} \textit{RiseDev}, and a \textbf{benchmark set-up tool} \\based on Terraform. They are now indispensable parts of everyone’s development process.
-\end{itemize}
-
-\cventry{ByteDance, Ltd.}
-  {June 2021 – August 2021}
-  [Storage System R\&D Intern, TerarkDB Team]
-  [Beijing, China]
-
-\begin{itemize}
-  \item Implemented \textbf{Zone-Aware Garbage Collection} in \textbf{TerrakDB} for Zoned Namespace SSDs, which\\ reduced 3-4x of space amplification caused by interleaving write lifetime in a single ZNS zone.\iconlink[\faGithub]{https://github.com/bytedance/terarkdb}
-  \item Added observability facilities to \textbf{ZenFS} (by Western Digital) to analyze bottlenecks and implemented a \textbf{WAL-Aware Zone Allocator}, which reduced the p999 tail latency by 100x.\iconlink[\faGithub]{https://github.com/bzbd/zenfs}
-\end{itemize}
-
-\cventry{PingCAP, Inc.}
-  {August 2020 -- January 2021}
-  [Sotrage System R\&D Intern, TiKV Storage Team][Shanghai, China]
-  \begin{itemize}
-    \item Built LSM-based storage engine \textbf{AgateDB} from ground-up. Inspired by WiscKey and BadgerDB, \\AgateDB separates large vallues from LSM tree into value log, so as to reduce write amplification.\iconlink[\faGithub]{https://github.com/tikv/agatedb}
-  \end{itemize}
-
-\section{Open-Source Contributions}
-
-\cventry{cmu-db/bustub}
-  {Fall 2022}
-  [Teaching Assistant for 15-445/645 Database Systems]
-  [\iconlink[\faGithub][cmudb/bustub]{https://github.com/cmu-db/bustub}]
-  \begin{itemize}
-    \item Design and implement \textbf{query processing (SQL) layer} (binder, planner, optimizer) for the bustub\\ project and design course projects.
-  \end{itemize}
-
-\cventry{RisingLight Community}
-  {January 2022 -- Now}
-  [RisingLight Project Maintainer]
-  [\iconlink[\faGithub][risinglightdb]{https://github.com/risinglightdb}]
-  \begin{itemize}
-    \item Leads the development of \textbf{RisingLight}, an OLAP database system for educational purpose. RisingLight is written in Rust, supports simple TPC-H queries, and has a merge-tree based columnar storage.
-  \end{itemize}
-
-  \cventry{TiKV Community}
-    {May 2020 -- Now}
-    [TiKV Maintainer]
-    [\iconlink[\faGithub][tikv]{https://github.com/tikv}] % TODO: github link
+\section{Honors and Awards}
+% \cventry{Mathmatical Modoling}
+\begin{compactlist}
+  \item \textbf{Computer Algorithms}
     \begin{itemize}
-      \item Maintains \textbf{TiKV Coprocessor}, the push-down execution framework of TiDB. Mentored community\\ members to contribute features (e.g. new data types, plugin system) in the \textbf{LFX Mentorship}. \iconlink{https://github.com/tikv/tikv/issues/9066}\ \iconlink{https://github.com/tikv/tikv/issues/9747}
+      \item ACM/ICPC - Second Prize of Lanqiao Cup Python Algorithm Competition at Provincial Level
     \end{itemize}
-
-\cventry{Personal Projects}{\textbf{4k} followers \iconlink[\faGithub][skyzh]{https://github.com/skyzh}}
-\begin{itemize}
-  \item \textbf{type-exercise-in-rust} (\faIcon[regular]{star}870):
-  {\small Learn Rust black magics (GAT, HRTB, bypassing compiler bugs, macros) by implementing an expression framework in database systems.\iconlink[\faGithub]{https://github.com/skyzh/type-exercise-in-rust}}
-\end{itemize}
-
-
+  \item \textbf{Mathematical Modeling}
+    \begin{itemize}
+      \item The Meritorious Winner Prize of 2023 MCM/ICM - Using Lasso Regression and XGBoost to analyse the relationship between boat size, price and region.
+      \item The Second Prize of 2022 12th Mathor Cup College Students Mathematical Contest in Modeling - Solving 5G Base Station Signal Coverage Problems based on Harmony Search Algorithm
+    \end{itemize}
+  \item \textbf{Innovation and Business Plan Competition}
+    \begin{itemize}
+      \item First Prize at Provincial Level in Challenge Cup Business Plan Competition (2022) and First Prize at Provincial Level in Challenge Cup First Prize at Provincial Level in Challenge Cup (2023)
+      \item First Prize at Provincial Level in E-Commerce Competition Innovation, Creativity and Entrepreneurship (2022)
+    \end{itemize}
+\end{compactlist}
+%
+%
+\section{Research Experience}
+\cventry{Computer and Industrial Engineering Group}
+  {September 2021 -- Present}
+  % [Server-side Development and Operation and Maintenance Engineer Assistant]
+  [Group Member for \textbf{DevOps}, School of Management, Zhengzhou University][\iconlink[\faGithub][CIEG Homepage]{https://ieyjzhou.github.io/lab/}]
+    \begin{itemize}
+      \item \textbf{Solutions for Tobacco Production (China Tobacco Company Cooperation Project)}
+        \begin{itemize}
+          \item This project will continue from May 2023 to 2024.
+          \item Identification of tobacco pests and diseases and drug dispensing scheme based on Natural language processing and Knowledge graph technology.
+          \item Using deep reinforcement learning (pointer network) to optimize cigarette production parameters and improve yield.
+        \end{itemize}
+      \item \textbf{Teaching Assistant for Engineering Optimization}  \iconlink{https://ieyjzhou.github.io/teaching/}
+        \begin{itemize}
+          \item In the spring semester of 2023, I made slide and courseware for engineering optimization course, mainly introducing Convex optimization and nonlinear optimization as well as root solution algorithm.
+        \end{itemize}
+      \item \textbf{A game theory paper -- Web 3D Technologies and Game Theory}
+        \begin{itemize}
+          \item Constructed supermarket 3D models and customer positioning, used the mapping package called Felt and the Web 3D library Three.js.
+          \item Optimized of supermarket collocation based on combinatorial game theory, the paper will be published in journals in Mar.2024.
+        \end{itemize}
+      \item \textbf{Reinforcement Learning based Q-learning Yard Crane Scheduling Optimization}
+        \begin{itemize}
+          \item Research on replicating Q-learning algorithm and optimizing container scheduling for yard cranes.
+          \item Some mathematical models of the project will be solved using the GJO algorithm, and the relevant research results will be published on IEEE Transaction in Nov 2023.
+        \end{itemize}
+    \end{itemize}
+%
+%
+%
+%
+\section{Open-Source Contributions}
+%
+%
+\cventry{FreeLeek}
+  {Oct 2021 -- Present}
+  [Project Author and Maintainer]
+  [\iconlink[\faGithub][FreeLeek]{https://gitee.com/qian_zehao/free-leek} \iconlink[\faGithub][FreeLeek-ESP32]{https://gitee.com/qian_zehao/leek-box}]
+  \begin{itemize}
+    \item FreeLeek is an open source server-end framework for transmiting financial data to app backend and WeChat platform by using Python Flask, Tushare Pro and Akshare.
+    \item FreeLeek can automatically push finance news to WeChat official account subscribed by user.
+    \item More users' function can be defined easily by editing python script such as quant trade algorithms, stock position management system.
+  \end{itemize}
+%
+%
+\cventry{Nashsweeper}
+  {Dec 2022 -- May 2023}
+  [Project Author (Excellent Graduation Thesis)]
+  [\iconlink[\faGithub][Nashsweeper Repo]{https://gitee.com/qian_zehao/nashsweeper}]
+  \begin{itemize}
+    \item Nashsweeper shows a playful introduction of Nash equilibrium and designs a game named Nashsweeper, which is a game designed to find the pure strategy. \iconlink[\faGlobe][iPad Version]{http://204.15.75.42:8081/} \iconlink[\faGlobe][PC Version]{http://204.15.75.42:8082/}
+    \item Nashsweeper core computing engine adopts the reget-value algorithm implemented with SQLite. As a Python package, it can be invoked in jupyter- notebook to deal with industrial and data science problems.
+  \end{itemize}
+%
+%
+%
+\cventry{OpenIE -- Open Source Industrial Engineering Foundation}
+  {April 2022 -- Present}
+  [Foundation Initiator, Project Leader]
+  [\iconlink[\faGlobe][OpenIE foundation]{http://www.openie.xyz:803/}]
+  \begin{itemize}
+    \item Prediction of Tool Wear in Machining Centers Based on Deep Learning and Its Industrial Application (Feature engineering and Recurrent neural network are used in this project). \iconlink[\faGlobe][OpenIE Repo]{https://gitee.com/qian_zehao/OpenIE}
+    \item Some other optimizations for industrial scenario problems.
+  \end{itemize}
+%
+%
+%
+\section{Internship Experience}
+%
+%
+\cventry{Tianjin Jinmao Int'l Freight Co., Ltd}
+  {Jan 2022 -- Feb.2022, Jun 2022 -- Sep.2022}
+  [Server-side Development and Operation and Maintenance Engineer Assistant][Tianjin, China]
+  \begin{itemize}
+    \item Engaged in server operation and maintenance, back-end development, and database management. 
+    \item Developed company's enterprise resource planning system (ERP) and customer management system (CMS) utilizing JavaScript and MySQL, contributing to the company's enterprise digitalization.
+  \end{itemize}
+%
+%
 \section{Skills}
 
 \begin{compactlist}
-  \item \textbf{Programming Languages}: Rust, C++, Golang, Python and Node.js
-  \item \textbf{Tech Skills}: Key-Value Storage Systems, SSD-optimized File Systems, Database Systems, Stream-Processing Systems
-\end{compactlist}
+  \item \textbf{English Evidence}: IELTS 6.5 with every element above 6.0 (23/06/2023)
+  \item \textbf{Full Stack Programming}: Python (Flask framework for Backend Dev and a little PyTorch), Node.js (Vue framework for Frontend Dev) and MatLab (for Machine Learning and Signal Processing)
+  \item \textbf{Computer Skills}: Docker Deployment, Unity, Simulation Software, Statistic and Optimization, FlexSim(for logistics), LaTeX (I used it to edit this CV) and SPSS.
+  \item \textbf{Hands-on ability and musical talent}: Mechanical modeling, 3D printing and Hardware making. Proficient in guitar, bass, piano, and other musical instruments.
 
+\end{compactlist}
+%
+%
+\includepdf[pages={1}]{img/Transcript.pdf}
+%
+%
 \end{document}
