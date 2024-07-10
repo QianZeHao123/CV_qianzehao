@@ -27,19 +27,21 @@
 == Education
 #chiline()
 
-*Durham University* #h(1fr) *September 2023 -- August 2024 (Expected)*
+*Durham University* #h(1fr) *Sep 2023 -- Aug 2024 (Expected)*
 - Master of Science in Data Science (Social Analytics) #h(1fr) *Durham, England, British*
-- Relevant A+ Coursework: Machine Learning, Computational Social Sciences, Natural
-  Language Processing, Multilevel Modelling, Data Visualization and Web Crawler,
-  Big Data Analytics, Mathematics and Statistics for Data Science.
+- Relevant Module: Machine Learning, Computational Social Sciences, Natural Language Processing, Multilevel Modelling, Data Visualization and Web Crawler, Casual Inference, Full Stack Research Design, Mathematics and Statistics for Data Science.
 
-*Zhengzhou University* #h(1fr) *September 2019 -- July 2023*
+*Zhengzhou University* #h(1fr) *Sep 2019 -- Jul 2023*
 - B.Eng in Industrial Engineering #h(1fr) *Zhengzhou, Henan, China*
 - GPA 82.75/100, Rank 23/102, Scholarship in 2019, 2021, 2022
-- Good Skills: Electrotechnics, Contemporary Manufacturing System, Mechanical
-  Manufacturing Engineering, IE software and Application, Enterprise Process
+- A+ Courses: Electrotechnics, Contemporary Manufacturing System, Mechanical Manufacturing Engineering, IE software and Application, Enterprise Process
   Reformation, Engineering Optimization and 16 other programs
 
+== Publishment
+#chiline()
+
+*European Journal of Industrial Engineering*
+- Influence Index Analysis of Inland Waterway Ports Along the Yangtze River #h(1fr) *Jun 2024 (Accepted)*
 == Honors and Awards
 #chiline()
 
@@ -62,7 +64,7 @@
 == Research Experience
 #chiline()
 //
-*Computer and Industrial Engineering Group* #h(1fr) *September 2021 -- Present*
+*Computer and Industrial Engineering Group* #h(1fr) *Sep 2021 -- Jul 2023*
 - Group Member for DevOps, School of Management, Zhengzhou University #h(1fr) #link("https://ieyjzhou.github.io/lab/")[#fa-link() CIEG Homepage]
 //
 - *Solutions for Tobacco Production (China Tobacco Company Cooperation Project)*
@@ -72,18 +74,9 @@
   - Using deep reinforcement learning (pointer network) to optimize cigarette
     production parameters and improve yield.
 //
-- *Teaching Assistant for Engineering Optimization* #h(1fr) #link(
-    "https://ieyjzhou.github.io/teaching/",
-  )[#fa-link() Engineering Optimization]
-  - In the spring semester of 2023, I made slide and courseware for engineering
-    optimization course, mainly introducing Convex optimization and nonlinear
-    optimization as well as root solution algorithm.
-
 - *A game theory paper -- Web 3D Technologies and Game Theory*
-  - Constructed supermarket 3D models and customer positioning, used the mapping
-    package called Felt and the Web 3D library Three.js.
-  - Optimized of supermarket collocation based on combinatorial game theory, the
-    paper will be published in journals in Mar.2024.
+  - Constructed supermarket 3D models and customer positioning, used the mapping package called Felt and the Web 3D library Three.js.
+  - Optimized of supermarket collocation based on combinatorial game theory, the paper will be published in journals in 2024.
 
 - *Reinforcement Learning based Q-learning Yard Crane Scheduling Optimization*
   - Research on replicating Q-learning algorithm and optimizing container scheduling
@@ -97,13 +90,10 @@
 - Project Author (Excellent Graduation Thesis) #h(1fr) #link(
     "https://github.com/QianZeHao123/Nashsweeper",
   )[#fa-github() Nashsweeper Repo]
-  - Nashsweeper shows a playful introduction of Nash equilibrium and designs a game
-    named Nashsweeper, which is a game designed to find the pure strategy.
-  - Nashsweeper core computing engine adopts the reget-value algorithm implemented
-    with SQLite. As a Python package, it can be invoked in jupyter- notebook to deal
-    with industrial and data science problems.
+  - Nashsweeper shows a playful introduction of Nash equilibrium and designs a game named Nashsweeper, which is a game designed to find the pure strategy.
+  - Nashsweeper core computing engine adopts the reget-value algorithm implemented with SQLite. As a Python package, it can be invoked in jupyter- notebook to deal with industrial and data science problems.
 
-*OpenIE -- Open Source Industrial Engineering Foundation* #h(1fr) *April 2022 -- Present*
+*OpenIE -- Open Source Industrial Engineering Foundation* #h(1fr) *Apr 2022 -- Present*
 
 - Foundation Initiator, Project Leader #h(1fr) #link(
     "https://qianzehao123.github.io/OpenIE/",
@@ -128,6 +118,10 @@
 
 == Work Experience
 #chiline()
+
+*Teaching Assistant for Engineering Optimization* #h(1fr) *Feb 2023 -- Jun 2023*
+- In the spring semester of 2023, I made slide and courseware for engineering optimization course, mainly introducing Convex optimization and nonlinear optimization as well as root solution algorithm.
+
 *Tianjin Jinmao Int'l Freight Co., Ltd* #h(1fr) *Jan 2022 -- Feb.2022, Jun 2022 -- Sep.2022*
 
 Server-side Development and Operation and Maintenance Engineer Assistant #h(1fr) *Tianjin, China*
@@ -141,21 +135,18 @@ Server-side Development and Operation and Maintenance Engineer Assistant #h(1fr)
 == Skills
 #chiline()
 
-*English Evidence*: IELTS 6.5 with every element above 6.0 (23/06/2023)
+*Full Stack Programming*: R and Python (Statistical analysis, Web crawler, Flask framework for Backend Dev and PyTorch), Node.js (Vue framework for Frontend Dev) and MatLab (for Machine Learning and Signal Processing)
 
-*Full Stack Programming*: Python (Flask framework for Backend Dev and a little
-PyTorch), Node.js (Vue framework for Frontend Dev) and MatLab (for Machine
-Learning and Signal Processing)
+*Prompt Engineering*: Familiar with large language model API like Gemini and OpenAI, and experience of building AI agent with LangChain and LangFlow. 
 
-*Computer Skills*: Docker Deployment, Unity, Simulation Software, Statistic and
-Optimization, FlexSim(for logistics), Typst (I used it to edit this CV) and
-SPSS, Microsoft Office 365 and LaTeX.
+*Computer Skills*: Docker Deployment, 3D engine, Simulation Software, Optimization library, Typst (I used it to edit this CV), Microsoft Office 365 and LaTeX.
 
 *Hands-on ability and musical talent*: Mechanical modeling, 3D printing and
 Hardware making. Proficient in guitar, bass, piano, and other musical
 instruments.
 
+*English Evidence*: IELTS 6.5 with every element above 6.0 (Jun 2023)
 
 
-#v(1fr) #h(1fr) Updated on #datetime.today().display("[month repr:long] [day], [year]")
+#v(1fr) #h(1fr) Updated on #datetime.today().display("[month repr:short] [day], [year]")
 
