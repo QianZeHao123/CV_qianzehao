@@ -35,7 +35,7 @@
 - *全栈开发*: 熟练掌握 R 和 Python 的统计分析、网络爬虫和可视化, 后端开发 (Flask), 及深度学习 (PyTorch)；精通 Node.js 和 Vue.js 前端开发；具备 MatLab 在机器学习和信号处理中的应用经验。熟悉大型语言模型 API (Gemini、OpenAI) 与 AI 代理构建 (LangChain、LangFlow)；熟练 Docker 部署。
 - *软件使用*: Microsoft Office 365, 3D引擎、AutoCAD、仿真软件、数学优化工具、排版工具 (Typst, LaTeX)。
 - *实践与创意*: 熟悉机械建模、3D打印及电子硬件制作。擅长多种乐器, 如吉他、贝斯、钢琴等。
-- *语言能力*: 英语雅思7, 通过CET4, CET6。
+- *语言能力*: 英语雅思6.5, 通过CET4, CET6。
 
 == 教育背景
 #chiline()
