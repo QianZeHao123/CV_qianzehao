@@ -35,7 +35,7 @@
 - *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (Flask) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model APIs (Gemini, OpenAI) and AI agent building (LangChain, LangFlow); proficient in Docker deployment.
 - *Software Proficiency*: Microsoft Office 365, 3D engines, AutoCAD, simulation software, mathematical optimization tools, and typesetting tools (Typst, LaTeX).
 - *Practical and Creative Skills*: Familiar with mechanical modeling, 3D printing, and electronic hardware production. Proficient in playing various musical instruments, such as guitar, bass, and piano.
-- *Language Proficiency*: IELTS score of 7, passed CET-4 and CET-6.
+- *Language Proficiency*: IELTS score of 6.5, passed CET-4 and CET-6.
 
 == Education Background
 #chiline()
