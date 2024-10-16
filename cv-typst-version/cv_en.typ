@@ -100,7 +100,7 @@
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
 
-== Self-Evaluation
-#chiline()
+// == Self-Evaluation
+// #chiline()
 
-As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
+// As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
