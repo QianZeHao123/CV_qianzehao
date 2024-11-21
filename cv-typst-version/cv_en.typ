@@ -55,8 +55,8 @@
 *Dynamic Research on Market Innovation Product Diffusion* (#link("https://github.com/QianZeHao123/MDS-Research-Project")[#fa-github() ABM Repo]) #h(1fr) *June 2024 -- September 2024*
 - In this project, based on the Bass diffusion theory and complex networks, I researched the diffusion dynamics of innovative products in the market. I built a flexible simulation framework using Python to simulate the impacts of individual heterogeneity and social network structure on diffusion. I was responsible for research design and simulation analysis, exploring the influence of consumer heterogeneity and network effects on market forecasts. The research found that the ratio of innovators to influential individuals significantly affects early adoption rates, providing new perspectives for market promotion.
 
-*LangChain AI Chatbot Development* (#link("https://github.com/QianZe-HAO/CyberHammer")[#fa-github() AI ChatBot Repo]) #h(1fr) *November 2023 -- June 2024*
-- Developed a private AI chatbot based on LangChain and large language models aimed at enhancing understanding and response accuracy for user text files and web content. The project utilized LangChain and LLM (like Google Gemini) for natural language processing, supporting multi-format content uploads. I was responsible for developing the core functionalities of the chatbot, including text and web content processing, dialogue generation, and system integration, designing efficient content parsing and context understanding mechanisms. Successfully achieved accurate responses, significantly enhancing user interaction experience and system intelligence.
+// *LangChain AI Chatbot Development* (#link("https://github.com/QianZe-HAO/CyberHammer")[#fa-github() AI ChatBot Repo]) #h(1fr) *November 2023 -- June 2024*
+// - Developed a private AI chatbot based on LangChain and large language models aimed at enhancing understanding and response accuracy for user text files and web content. The project utilized LangChain and LLM (like Google Gemini) for natural language processing, supporting multi-format content uploads. I was responsible for developing the core functionalities of the chatbot, including text and web content processing, dialogue generation, and system integration, designing efficient content parsing and context understanding mechanisms. Successfully achieved accurate responses, significantly enhancing user interaction experience and system intelligence.
 
 *Knowledge Base Construction for Tobacco Production Process* #h(1fr) *May 2023 -- Present*
 - Collaborating with the Henan Tobacco Company to develop a knowledge base for pest control and production processes, aimed at improving the efficiency of knowledge acquisition for technical personnel. The project utilizes natural language processing (NLP), knowledge graph construction, Python, and Neo4j technologies. I am responsible for designing and implementing text data processing and knowledge extraction models to construct the knowledge graph.
@@ -70,15 +70,19 @@
 *Crane Scheduling Optimization in Port Yards*  (#link("https://gitee.com/qian_zehao/map-source-version2")[#fa-github() Yard Crane Research]) #h(1fr) *April 2022 -- Present*
 - Researching crane scheduling optimization in port yards, analyzing its impact on operational efficiency, with a particular focus on the scheduling issues of inland ports along the Yangtze River. The project employs metaheuristic algorithms for scheduling optimization, specifically applying the GJO algorithm. I am responsible for algorithm design and implementation, as well as data analysis. The research results were published in the European Journal of Industrial Engineering, providing theoretical support for port scheduling optimization.
 
-== Internship Experience
+== Work Experience
 #chiline()
+
+*Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- Present*
+- Worked in the Advanced Data and Business Analytics (ADBA) team, responsible for Siemens Chatbot (DIDA) development and data analysis. Developed a chatbot system for internal use, integrating with Siemens' internal systems to provide real-time data analysis and support services.
+- Python, LangChain, LLM and vector database were used to develop the chatbot system.
 
 *Zhengzhou University* Teaching Assistant #h(1fr) *January 2023 -- June 2024*
 - Assisted professors in preparing course materials, designed content for engineering optimization courses, and provided technical support to students, helping them understand complex concepts and solve learning issues.  
 - Organized and led group discussions to help students apply theoretical knowledge to practical problems.  
 - Achievements: Assisted professors in enhancing student interest in course content, with the number of participants in the final course design increasing twofold compared to the previous year.
 
-*Tianjin Jinmao International Freight Forwarding Co., Ltd.* Server-side Engineer Assistant #h(1fr) *January 2022 -- September 2022*  
+*Tianjin Jinmao International Freight Forwarding Co., Ltd.*  #h(1fr) *January 2022 -- September 2022*  
 - Designed and developed customized logistics management systems for small and medium-sized logistics companies to optimize order processing and tracking efficiency.  
 - Participated in daily operations and maintenance of the company’s servers, responsible for performance monitoring and troubleshooting.  
 - Assisted in the development and maintenance of backend functions for the freight management system, optimizing data processing and interface design, and was responsible for database management and maintenance, including data backup, recovery, and performance optimization.  
@@ -100,7 +104,7 @@
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
 
-== Self-Evaluation
-#chiline()
+// == Self-Evaluation
+// #chiline()
 
-As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
+// As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
