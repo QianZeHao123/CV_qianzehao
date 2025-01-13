@@ -82,7 +82,11 @@
 
 *Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- Present*
 - Worked in the Advanced Data and Business Analytics (ADBA) team, responsible for Siemens Chatbot (DIDA) development and data analysis. Developed a chatbot system for internal use, integrating with Siemens' internal systems to provide real-time data analysis and support services.
+<<<<<<< HEAD
 - Python, LangChain, LLM and vector database are used to develop the chatbot system.
+=======
+- Python, LangChain, LLM and vector database were used to develop the chatbot system.
+>>>>>>> 7feece3d3b553acd4847e5b15db2788737b3b57c
 
 *Zhengzhou University* Teaching Assistant #h(1fr) *January 2023 -- June 2024*
 - Assisted professors in preparing course materials, designed content for engineering optimization courses, and provided technical support to students, helping them understand complex concepts and solve learning issues.  
@@ -110,3 +114,11 @@
   - First Prize at the Provincial Electronic Commerce Innovation Competition #h(1fr) *April 2022*
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
+<<<<<<< HEAD
+=======
+
+// == Self-Evaluation
+// #chiline()
+
+// As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
+>>>>>>> 7feece3d3b553acd4847e5b15db2788737b3b57c
