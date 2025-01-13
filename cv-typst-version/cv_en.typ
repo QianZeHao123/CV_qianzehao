@@ -29,25 +29,32 @@
 #fa-home() #link("https://qianzehao123.github.io")[Academic Page] |
 #fa-linkedin() #link("https://www.linkedin.com/in/zehao-qian")[LinkedIn]
 
+== Education Background
+#chiline()
+
+*Durham University* #h(1fr) *September 2023 -- January 2025*
+- MSc. in Data Science (Social Analytics) #h(1fr) *UK, Durham*
+- Distinction, Ranking: Top 5%
+- Relevant Courses: Machine Learning, Computational Social Science, Natural Language Processing, Multi-Level Modeling, Data Visualization and Web Scraping, Causal Inference, Full-Stack Research Design, Mathematics and Statistics for Data Science.
+
+*Zhengzhou University* #h(1fr) *September 2019 -- July 2023*
+- BEng. in Industrial Engineering #h(1fr) *China, Henan, Zhengzhou*
+- GPA: 82.75/100, Ranking: 23/102
+- A+ Courses: Electrical Engineering, Modern Manufacturing Systems, Mechanical Manufacturing Engineering, Industrial Engineering Software and Applications, Business Process Reengineering, Engineering Optimization, and 16 other courses.
+
 == Personal Skills
 #chiline()
 
-- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (Flask) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model APIs (Gemini, OpenAI) and AI agent building (LangChain, LangFlow); proficient in Docker deployment.
+- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (Flask) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model and AI agent building; proficient in Docker deployment.
 - *Software Proficiency*: Microsoft Office 365, 3D engines, AutoCAD, simulation software, mathematical optimization tools, and typesetting tools (Typst, LaTeX).
 - *Practical and Creative Skills*: Familiar with mechanical modeling, 3D printing, and electronic hardware production. Proficient in playing various musical instruments, such as guitar, bass, and piano.
 - *Language Proficiency*: IELTS score of 6.5, passed CET-4 and CET-6.
 
-== Education Background
+== Publishment
 #chiline()
 
-*Durham University* #h(1fr) *September 2023 -- January 2025 (Expected)*
-- Master of Science in Data Science (Social Analytics) #h(1fr) *UK, Durham*
-- Relevant Courses: Machine Learning, Computational Social Science, Natural Language Processing, Multi-Level Modeling, Data Visualization and Web Scraping, Causal Inference, Full-Stack Research Design, Mathematics and Statistics for Data Science.
-
-*Zhengzhou University* #h(1fr) *September 2019 -- July 2023*
-- Bachelor of Engineering in Industrial Engineering #h(1fr) *China, Henan, Zhengzhou*
-- GPA: 82.75/100, Ranking: 23/102
-- A+ Courses: Electrical Engineering, Modern Manufacturing Systems, Mechanical Manufacturing Engineering, Industrial Engineering Software and Applications, Business Process Reengineering, Engineering Optimization, and 16 other courses.
+*European Journal of Industrial Engineering*
+- Influence Index Analysis of Inland Waterway Ports Along the Yangtze River #h(1fr) *June 2024 (Accepted)*
 
 == Project Experience
 #chiline()
@@ -68,7 +75,7 @@
 - Developed a predictive maintenance system for factory milling equipment that enables real-time prediction of tool wear through machine learning, reducing maintenance costs and improving equipment efficiency. Employed RNN (Recurrent Neural Network) for time series analysis, combined with signal processing techniques to process sensor data. I was responsible for model design and training, as well as project management. Successfully achieved high-precision tool wear predictions, significantly reducing equipment downtime, and the project won first prize at the "Challenge Cup" in Henan Province.
 
 *Crane Scheduling Optimization in Port Yards*  (#link("https://gitee.com/qian_zehao/map-source-version2")[#fa-github() Yard Crane Research]) #h(1fr) *April 2022 -- Present*
-- Researching crane scheduling optimization in port yards, analyzing its impact on operational efficiency, with a particular focus on the scheduling issues of inland ports along the Yangtze River. The project employs metaheuristic algorithms for scheduling optimization, specifically applying the GJO algorithm. I am responsible for algorithm design and implementation, as well as data analysis. The research results were published in the European Journal of Industrial Engineering, providing theoretical support for port scheduling optimization.
+- Researching crane scheduling optimization in port yards, analyzing its impact on operational efficiency, with a particular focus on the scheduling issues of inland ports along the Yangtze River. The project employs metaheuristic algorithms for scheduling optimization, specifically applying the GJO algorithm. Responsible for algorithm design and implementation, as well as data analysis, which providing theoretical support for port scheduling optimization.
 
 == Work Experience
 #chiline()
@@ -84,7 +91,6 @@
 
 *Tianjin Jinmao International Freight Forwarding Co., Ltd.*  #h(1fr) *January 2022 -- September 2022*  
 - Designed and developed customized logistics management systems for small and medium-sized logistics companies to optimize order processing and tracking efficiency.  
-- Participated in daily operations and maintenance of the company’s servers, responsible for performance monitoring and troubleshooting.  
 - Assisted in the development and maintenance of backend functions for the freight management system, optimizing data processing and interface design, and was responsible for database management and maintenance, including data backup, recovery, and performance optimization.  
 - Technical Stack: Used tools such as Linux, MySQL, and Python for operations and development work.  
 
@@ -98,13 +104,9 @@
   - Outstanding Award at the American College Student Mathematical Modeling Competition #h(1fr) *January 2023*
   - Second Prize in the 12th Mathor Cup National College Student Mathematical Modeling Competition #h(1fr) *May 2022*
 - *Innovation and Entrepreneurship Competitions*
+  - Best Creation Award in Siemens Xcelerator Platform Competition #h(1fr) *January 2025*
   - First Prize at the "Challenge Cup" National College Student Extracurricular Academic Science and Technology Works Competition #h(1fr) *August 2023*
   - First Prize at the "Challenge Cup" National College Student Business Plan Competition #h(1fr) *August 2022*
   - First Prize at the Provincial Electronic Commerce Innovation Competition #h(1fr) *April 2022*
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
-
-// == Self-Evaluation
-// #chiline()
-
-// As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
