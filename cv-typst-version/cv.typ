@@ -1,7 +1,7 @@
 // install fontawesome font lib from https://fontawesome.com/download
 #import "@preview/fontawesome:0.2.1": *
 
-#show heading: set text(font: "Linux Biolinum")
+#show heading: set text(font: "Arial")
 
 #show link: underline
 
