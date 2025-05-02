@@ -149,4 +149,3 @@ instruments.
 
 
 #v(1fr) #h(1fr) Updated on #datetime.today().display("[month repr:short] [day], [year]")
-
