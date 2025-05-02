@@ -45,7 +45,7 @@
 == Personal Skills
 #chiline()
 
-- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (Flask) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model and AI agent building; proficient in Docker deployment.
+- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (FastAPI, SQL) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model and AI agent building; proficient in Docker deployment.
 - *Software Proficiency*: Microsoft Office 365, 3D engines, AutoCAD, simulation software, mathematical optimization tools, and typesetting tools (Typst, LaTeX).
 - *Practical and Creative Skills*: Familiar with mechanical modeling, 3D printing, and electronic hardware production. Proficient in playing various musical instruments, such as guitar, bass, and piano.
 - *Language Proficiency*: IELTS score of 6.5, passed CET-4 and CET-6.
@@ -80,13 +80,14 @@
 == Work Experience
 #chiline()
 
-*Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- Present*
+*City University of Hong Kong, Dept. of Information Systems*  Research Assistant
+#h(1fr) *Feb. 2025 - Present*
+- Conducting research on financial risk management using deep reinforcement learning, focusing on portfolio optimization and dynamic risk control.  
+- Developing vehicle maintenance prediction models by combining ensemble learning methods with IoT data for enhanced MRO (Maintenance, Repair, and Overhaul) forecasting.
+
+*Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- January 2025*
 - Worked in the Advanced Data and Business Analytics (ADBA) team, responsible for Siemens Chatbot (DIDA) development and data analysis. Developed a chatbot system for internal use, integrating with Siemens' internal systems to provide real-time data analysis and support services.
-<<<<<<< HEAD
-- Python, LangChain, LLM and vector database are used to develop the chatbot system.
-=======
 - Python, LangChain, LLM and vector database were used to develop the chatbot system.
->>>>>>> 7feece3d3b553acd4847e5b15db2788737b3b57c
 
 *Zhengzhou University* Teaching Assistant #h(1fr) *January 2023 -- June 2024*
 - Assisted professors in preparing course materials, designed content for engineering optimization courses, and provided technical support to students, helping them understand complex concepts and solve learning issues.  
@@ -102,6 +103,7 @@
 #chiline()
 
 - *Computer Software and Algorithms*
+  - Third Prize in the AI Innovation · Empowering the Future University Innovation Challenge #h(1fr) *April 2025*
   - First Prize at DurHack 2024 UK Hackathon Durham Region #h(1fr) *November 2023*
   - Second Prize in the Provincial ACM/ICPC - Blue Bridge Cup Python Algorithm Competition #h(1fr) *August 2022*
 - *Mathematical Modeling*
@@ -114,11 +116,3 @@
   - First Prize at the Provincial Electronic Commerce Innovation Competition #h(1fr) *April 2022*
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
-<<<<<<< HEAD
-=======
-
-// == Self-Evaluation
-// #chiline()
-
-// As a professional with a background in Industrial Engineering and a Master's degree in Data Science, I possess strong technical skills and a data-driven mindset. I have accumulated rich experience in both academic and practical settings, particularly in engineering optimization and data science. I am passionate about solving complex problems and possess excellent analytical abilities and innovative thinking. I have a good spirit of teamwork and leadership, enabling me to adapt quickly and contribute effectively in diverse work environments. I have demonstrated an efficient work attitude and outstanding project management skills in research and projects, coordinating resources effectively to drive project success.
->>>>>>> 7feece3d3b553acd4847e5b15db2788737b3b57c
