@@ -23,7 +23,7 @@
 
 = Zehao Qian
 
-#fa-mail-bulk() #link("zehao.qian.cn@gmail.com")[zehao.qian.cn\@gmail.com] |
+#fa-mail-bulk() #link("mailto:zehao.qian.cn@gmail.com")[zehao.qian.cn\@gmail.com] |
 #fa-github() #link("https://github.com/QianZeHao123")[QianZeHao123] |
 #fa-link() #link("https://qianzehao123.github.io/zehao.qian")[Portfolio Website] |
 #fa-home() #link("https://qianzehao123.github.io")[Academic Page] |
