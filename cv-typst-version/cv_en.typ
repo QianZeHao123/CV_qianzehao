@@ -24,7 +24,7 @@
 = Zehao Qian
 
 #fa-mail-bulk() #link("zehao.qian.cn@gmail.com")[zehao.qian.cn\@gmail.com] |
-#fa-github() #link("https://github.com/QianZeHao123")[GitHub QianZeHao123] |
+#fa-github() #link("https://github.com/QianZeHao123")[QianZeHao123] |
 #fa-link() #link("https://qianzehao123.github.io/zehao.qian")[Portfolio Website] |
 #fa-home() #link("https://qianzehao123.github.io")[Academic Page] |
 #fa-linkedin() #link("https://www.linkedin.com/in/zehao-qian")[LinkedIn]
@@ -45,7 +45,7 @@
 == Personal Skills
 #chiline()
 
-- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (FastAPI, SQL) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model and AI agent building; proficient in Docker deployment.
+- *Full-Stack Development*: Proficient in statistical analysis, web scraping, and visualization using R and Python; backend development (FastAPI, SQL), Distributed ML (Ray) and deep learning (PyTorch); skilled in frontend development with Node.js and Vue.js; experienced in applying MATLAB for machine learning and signal processing. Familiar with large language model and AI agent building; proficient in Docker deployment.
 - *Software Proficiency*: Microsoft Office 365, 3D engines, AutoCAD, simulation software, mathematical optimization tools, and typesetting tools (Typst, LaTeX).
 - *Practical and Creative Skills*: Familiar with mechanical modeling, 3D printing, and electronic hardware production. Proficient in playing various musical instruments, such as guitar, bass, and piano.
 - *Language Proficiency*: IELTS score of 6.5, passed CET-4 and CET-6.
@@ -53,37 +53,16 @@
 == Publishment
 #chiline()
 
-*European Journal of Industrial Engineering*
-- Influence Index Analysis of Inland Waterway Ports Along the Yangtze River #h(1fr) *June 2024 (Accepted)*
-
-== Project Experience
-#chiline()
-
-*Dynamic Research on Market Innovation Product Diffusion* (#link("https://github.com/QianZeHao123/MDS-Research-Project")[#fa-github() ABM Repo]) #h(1fr) *June 2024 -- September 2024*
-- In this project, based on the Bass diffusion theory and complex networks, I researched the diffusion dynamics of innovative products in the market. I built a flexible simulation framework using Python to simulate the impacts of individual heterogeneity and social network structure on diffusion. I was responsible for research design and simulation analysis, exploring the influence of consumer heterogeneity and network effects on market forecasts. The research found that the ratio of innovators to influential individuals significantly affects early adoption rates, providing new perspectives for market promotion.
-
-// *LangChain AI Chatbot Development* (#link("https://github.com/QianZe-HAO/CyberHammer")[#fa-github() AI ChatBot Repo]) #h(1fr) *November 2023 -- June 2024*
-// - Developed a private AI chatbot based on LangChain and large language models aimed at enhancing understanding and response accuracy for user text files and web content. The project utilized LangChain and LLM (like Google Gemini) for natural language processing, supporting multi-format content uploads. I was responsible for developing the core functionalities of the chatbot, including text and web content processing, dialogue generation, and system integration, designing efficient content parsing and context understanding mechanisms. Successfully achieved accurate responses, significantly enhancing user interaction experience and system intelligence.
-
-*Knowledge Base Construction for Tobacco Production Process* #h(1fr) *May 2023 -- Present*
-- Collaborating with the Henan Tobacco Company to develop a knowledge base for pest control and production processes, aimed at improving the efficiency of knowledge acquisition for technical personnel. The project utilizes natural language processing (NLP), knowledge graph construction, Python, and Neo4j technologies. I am responsible for designing and implementing text data processing and knowledge extraction models to construct the knowledge graph.
-
-*Nashsweeper* (#link("https://github.com/QianZeHao123/Nashsweeper")[#fa-github() Nashsweeper Source Repo]) #h(1fr) *December 2022 -- July 2023*
-- Designed a learning website for beginners in game theory focused on understanding the concepts and algorithms of Nash equilibrium. Built the learning platform using Python, Flask, and Vue.js, and implemented algorithm-solving modules. As the project leader, I was responsible for algorithm design, website development, and user interface optimization. The project received the "Outstanding Undergraduate Thesis" award, and the website was used in Zhengzhou University's mathematical modeling training.
-
-*Tool Wear Prediction in Deep Learning for Machining Centers* (#link("https://github.com/Open-Source-Intelligent-Engineering")[#fa-github() OpenIE]) #h(1fr) *December 2022 -- June 2023*
-- Developed a predictive maintenance system for factory milling equipment that enables real-time prediction of tool wear through machine learning, reducing maintenance costs and improving equipment efficiency. Employed RNN (Recurrent Neural Network) for time series analysis, combined with signal processing techniques to process sensor data. I was responsible for model design and training, as well as project management. Successfully achieved high-precision tool wear predictions, significantly reducing equipment downtime, and the project won first prize at the "Challenge Cup" in Henan Province.
-
-*Crane Scheduling Optimization in Port Yards*  (#link("https://gitee.com/qian_zehao/map-source-version2")[#fa-github() Yard Crane Research]) #h(1fr) *April 2022 -- Present*
-- Researching crane scheduling optimization in port yards, analyzing its impact on operational efficiency, with a particular focus on the scheduling issues of inland ports along the Yangtze River. The project employs metaheuristic algorithms for scheduling optimization, specifically applying the GJO algorithm. Responsible for algorithm design and implementation, as well as data analysis, which providing theoretical support for port scheduling optimization.
+*European Journal of Industrial Engineering* #h(1fr) *June 2024 (Accepted)*
+- Influence Index Analysis of Inland Waterway Ports Along the Yangtze River  #h(1fr) DOI: #link("http://dx.doi.org/10.1504/EJIE.2025.10066546")[10.1504/EJIE.2025.10066546]
 
 == Work Experience
 #chiline()
 
 *City University of Hong Kong, Dept. of Information Systems*  Research Assistant
 #h(1fr) *Feb. 2025 - Present*
-- Conducting research on financial risk management using deep reinforcement learning, focusing on portfolio optimization and dynamic risk control.  
-- Developing vehicle maintenance prediction models by combining ensemble learning methods with IoT data for enhanced MRO (Maintenance, Repair, and Overhaul) forecasting.
+- Conducting research on financial risk management using deep reinforcement learning, focusing on portfolio optimization and dynamic risk control. (#link("https://github.com/QianZeHao123/LoanRL")[#fa-github() LoanRL]) 
+- Developing vehicle maintenance prediction models by combining ensemble learning methods with IoT data for enhanced MRO (Maintenance, Repair, and Overhaul) forecasting. (#link("https://github.com/QianZeHao123/MroPred")[#fa-github() MroPred]) 
 
 *Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- January 2025*
 - Worked in the Advanced Data and Business Analytics (ADBA) team, responsible for Siemens Chatbot (DIDA) development and data analysis. Developed a chatbot system for internal use, integrating with Siemens' internal systems to provide real-time data analysis and support services.
@@ -98,6 +77,23 @@
 - Designed and developed customized logistics management systems for small and medium-sized logistics companies to optimize order processing and tracking efficiency.  
 - Assisted in the development and maintenance of backend functions for the freight management system, optimizing data processing and interface design, and was responsible for database management and maintenance, including data backup, recovery, and performance optimization.  
 - Technical Stack: Used tools such as Linux, MySQL, and Python for operations and development work.  
+== Project Experience
+#chiline()
+
+*Dynamic Research on Market Innovation Product Diffusion* (#link("https://github.com/QianZeHao123/MDS-Research-Project")[#fa-github() ABM]) #h(1fr) *June 2024 -- September 2024*
+- In this project, based on the Bass diffusion theory and complex networks, I researched the diffusion dynamics of innovative products in the market. I built a flexible simulation framework using Python to simulate the impacts of individual heterogeneity and social network structure on diffusion. I was responsible for research design and simulation analysis, exploring the influence of consumer heterogeneity and network effects on market forecasts. The research found that the ratio of innovators to influential individuals significantly affects early adoption rates, providing new perspectives for market promotion.
+
+*Knowledge Base Construction for Tobacco Production Process* #h(1fr) *May 2023 -- Present*
+- Collaborating with the Henan Tobacco Company to develop a knowledge base for pest control and production processes, aimed at improving the efficiency of knowledge acquisition for technical personnel. The project utilizes natural language processing (NLP), knowledge graph construction, Python, and Neo4j technologies. I am responsible for designing and implementing text data processing and knowledge extraction models to construct the knowledge graph.
+
+*Nashsweeper* (#link("https://github.com/QianZeHao123/Nashsweeper")[#fa-github() Nashsweeper Source]) #h(1fr) *December 2022 -- July 2023*
+- Designed a learning website for beginners in game theory focused on understanding the concepts and algorithms of Nash equilibrium. Built the learning platform using Python, Flask, and Vue.js, and implemented algorithm-solving modules. As the project leader, I was responsible for algorithm design, website development, and user interface optimization. The project received the "Outstanding Undergraduate Thesis" award, and the website was used in Zhengzhou University's mathematical modeling training.
+
+*Tool Wear Prediction in Deep Learning for Machining Centers* (#link("https://github.com/Open-Source-Intelligent-Engineering")[#fa-github() OpenIE]) #h(1fr) *December 2022 -- June 2023*
+- Developed a predictive maintenance system for factory milling equipment that enables real-time prediction of tool wear through machine learning, reducing maintenance costs and improving equipment efficiency. Employed RNN (Recurrent Neural Network) for time series analysis, combined with signal processing techniques to process sensor data. I was responsible for model design and training, as well as project management. Successfully achieved high-precision tool wear predictions, significantly reducing equipment downtime, and the project won first prize at the "Challenge Cup" in Henan Province.
+
+*Crane Scheduling Optimization in Port Yards*  (#link("https://gitee.com/qian_zehao/map-source-version2")[#fa-github() Yard Crane Research]) #h(1fr) *April 2022 -- Present*
+- Researching crane scheduling optimization in port yards, analyzing its impact on operational efficiency, with a particular focus on the scheduling issues of inland ports along the Yangtze River. The project employs metaheuristic algorithms for scheduling optimization, specifically applying the GJO algorithm. Responsible for algorithm design and implementation, as well as data analysis, which providing theoretical support for port scheduling optimization.
 
 == Honors and Awards
 #chiline()
