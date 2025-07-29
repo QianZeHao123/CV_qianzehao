@@ -1,5 +1,8 @@
 // install fontawesome font lib from https://fontawesome.com/download
-#import "@preview/fontawesome:0.2.1": *
+// install Linux Libertine font lib from https://font.download/font/linux-libertine
+
+
+#import "@preview/fontawesome:0.5.0": *
 
 #show heading: set text(font: "Linux Libertine", size: 13pt)
 
@@ -9,9 +12,10 @@
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
   size: 10.5pt,
-  font: "Linux Libertine",
-  region: "cn",
-  lang: "zh",
+  // font: "Linux Libertine",
+  font: "Times New Roman",
+  region: "uk",
+  lang: "en",
 )
 
 // Feel free to change the margin below to best fit your own CV
@@ -19,7 +23,11 @@
 
 #set par(justify: true)
 
-#let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 
 = Zehao Qian
 
@@ -60,23 +68,23 @@
 #chiline()
 
 *City University of Hong Kong, Dept. of Information Systems*  Research Assistant
-#h(1fr) *Feb. 2025 - Present*
-- Conducting research on financial risk management using deep reinforcement learning, focusing on portfolio optimization and dynamic risk control. (#link("https://github.com/QianZeHao123/LoanRL")[#fa-github() LoanRL]) 
-- Developing vehicle maintenance prediction models by combining ensemble learning methods with IoT data for enhanced MRO (Maintenance, Repair, and Overhaul) forecasting. (#link("https://github.com/QianZeHao123/MroPred")[#fa-github() MroPred]) 
+#h(1fr) *February 2025 - July 2025*
+- Conducting research on financial risk management using deep reinforcement learning, focusing on portfolio optimization and dynamic risk control. (#link("https://github.com/QianZeHao123/LoanRL")[#fa-github() LoanRL])
+- Developing vehicle maintenance prediction models by combining ensemble learning methods with IoT data for enhanced MRO (Maintenance, Repair, and Overhaul) forecasting. (#link("https://github.com/QianZeHao123/MroPred")[#fa-github() MroPred])
 
 *Siemens Digital Industries Group* Data Analyst Intern #h(1fr) *October 2024 -- January 2025*
 - Worked in the Advanced Data and Business Analytics (ADBA) team, responsible for Siemens Chatbot (DIDA) development and data analysis. Developed a chatbot system for internal use, integrating with Siemens' internal systems to provide real-time data analysis and support services.
 - Python, LangChain, LLM and vector database were used to develop the chatbot system.
 
 *Zhengzhou University* Teaching Assistant #h(1fr) *January 2023 -- June 2024*
-- Assisted professors in preparing course materials, designed content for engineering optimization courses, and provided technical support to students, helping them understand complex concepts and solve learning issues.  
-- Organized and led group discussions to help students apply theoretical knowledge to practical problems.  
+- Assisted professors in preparing course materials, designed content for engineering optimization courses, and provided technical support to students, helping them understand complex concepts and solve learning issues.
+- Organized and led group discussions to help students apply theoretical knowledge to practical problems.
 - Achievements: Assisted professors in enhancing student interest in course content, with the number of participants in the final course design increasing twofold compared to the previous year.
 
-*Tianjin Jinmao International Freight Forwarding Co., Ltd.*  #h(1fr) *January 2022 -- September 2022*  
-- Designed and developed customized logistics management systems for small and medium-sized logistics companies to optimize order processing and tracking efficiency.  
-- Assisted in the development and maintenance of backend functions for the freight management system, optimizing data processing and interface design, and was responsible for database management and maintenance, including data backup, recovery, and performance optimization.  
-- Technical Stack: Used tools such as Linux, MySQL, and Python for operations and development work.  
+*Tianjin Jinmao International Freight Forwarding Co., Ltd.*  #h(1fr) *January 2022 -- September 2022*
+- Designed and developed customized logistics management systems for small and medium-sized logistics companies to optimize order processing and tracking efficiency.
+- Assisted in the development and maintenance of backend functions for the freight management system, optimizing data processing and interface design, and was responsible for database management and maintenance, including data backup, recovery, and performance optimization.
+- Technical Stack: Used tools such as Linux, MySQL, and Python for operations and development work.
 == Project Experience
 #chiline()
 
@@ -112,3 +120,5 @@
   - First Prize at the Provincial Electronic Commerce Innovation Competition #h(1fr) *April 2022*
 - *Academic Scholarships*
   - Zhengzhou University Excellent Student Scholarship #h(1fr) *2019 -- 2023*
+
+#v(1fr) #h(1fr) Updated on #datetime.today().display("[month repr:short] [day], [year]")
