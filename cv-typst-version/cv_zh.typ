@@ -1,7 +1,7 @@
 // install fontawesome font lib from https://fontawesome.com/download
-#import "@preview/fontawesome:0.2.1": *
+#import "@preview/fontawesome:0.5.0": *
 
-#show heading: set text(font: "SimHei", size: 13pt)
+#show heading: set text(font: "Source Han Serif", size: 13pt)
 
 #show link: underline
 
@@ -9,7 +9,9 @@
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
   size: 10.5pt,
-  font: ("Times New Roman", "DengXian"),
+  // font: ("Source Han Serif", "Linux Libertine"),
+  font: ("Times New Roman", "Source Han Serif"),
+  // font: "Source Han Serif",
   region: "cn",
   lang: "zh",
 )
@@ -19,7 +21,11 @@
 
 #set par(justify: true)
 
-#let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 
 = 钱泽昊
 
@@ -29,19 +35,12 @@
 #fa-home() #link("https://qianzehao123.github.io")[Academic Page] |
 #fa-linkedin() #link("https://www.linkedin.com/in/zehao-qian")[LinkedIn]
 
-== 个人技能
-#chiline()
-
-- *全栈开发*: 熟练掌握 R 和 Python 的统计分析、网络爬虫和可视化, 后端开发 (Flask), 及深度学习 (PyTorch)；精通 Node.js 和 Vue.js 前端开发；具备 MatLab 在机器学习和信号处理中的应用经验。熟悉大型语言模型 API (Gemini、OpenAI) 与 AI 代理构建 (LangChain、LangFlow)；熟练 Docker 部署。
-- *软件使用*: Microsoft Office 365, 3D引擎、AutoCAD、仿真软件、数学优化工具、排版工具 (Typst, LaTeX)。
-- *实践与创意*: 熟悉机械建模、3D打印及电子硬件制作。擅长多种乐器, 如吉他、贝斯、钢琴等。
-- *语言能力*: 英语雅思6.5, 通过CET4, CET6。
-
 == 教育背景
 #chiline()
 
 *杜伦大学* #h(1fr) *2023年9月 -- 2025年1月 (预计)*
 - 数据科学(社会分析) 理学硕士 #h(1fr) *英国, 杜伦*
+- Distinction，排名前5%
 - 相关课程: 机器学习, 计算社会科学, 自然语言处理, 多层级建模, 数据可视化与网络爬虫, 因果推断, 全栈研究设计, 数据科学数学与统计学。
 
 *郑州大学* #h(1fr) *2019年9月 -- 2023年7月*
@@ -49,6 +48,43 @@
 - GPA 82.75/100, 排名 23/102
 - A+课程: 电工学, 现代制造系统, 机械制造工程, 工业工程软件及应用, 企业流程再造, 工程优化和其他16门课程.
 
+== 个人技能
+#chiline()
+
+- *全栈开发*: 精通使用 R 和 Python 进行统计分析、网页数据抓取和可视化；精通后端开发（FastAPI、SQL）、分布式机器学习（Ray）和深度学习（PyTorch）；熟练使用 Node.js 和 Vue.js 进行前端开发；有使用 MATLAB 进行机器学习和信号处理的经验。熟悉大型语言模型和 AI Agent 构建；精通 Docker 部署。
+- *软件使用*: Microsoft Office 365, 3D引擎、AutoCAD、仿真软件、数学优化工具、排版工具 (Typst, LaTeX)。
+- *实践与创意*: 熟悉机械建模、3D打印及电子硬件制作。擅长多种乐器, 如吉他、贝斯、钢琴等。
+- *语言能力*: 英语雅思6.5, 通过CET4, CET6。
+
+== 出版物
+
+#chiline()
+
+*European Journal of Industrial Engineering* #h(1fr) *2024年6月 (Accepted)*
+- Influence Index Analysis of Inland Waterway Ports Along the Yangtze River  #h(1fr) DOI: #link("http://dx.doi.org/10.1504/EJIE.2025.10066546")[10.1504/EJIE.2025.10066546]
+
+== 工作经历
+#chiline()
+
+*香港城市大学信息系统系* 研究助理
+#h(1fr) *2025年2月 - 2025年7月*
+- 使用深度强化学习进行金融风险管理研究，重点关注投资组合优化和动态风险控制。(#link("https://github.com/QianZeHao123/LoanRL")[#fa-github() LoanRL])
+- 结合集成学习方法和物联网数据，开发车辆维护预测模型，以增强MRO（维护、修理和大修）预测。(#link("https://github.com/QianZeHao123/MroPred")[#fa-github() MroPred])
+
+*西门子数字化工业集团* 数据分析师实习生 #h(1fr) *2024年10月 - 2025年1月*
+- 加入高级数据和商业分析 (ADBA) 团队，负责西门子聊天机器人 (DIDA) 的开发和数据分析。开发了一套内部使用的聊天机器人系统，并与西门子内部系统集成，提供实时数据分析和支持服务。
+- 该聊天机器人系统使用了Python、LangChain、LLM和向量数据库进行开发。
+
+*郑州大学* Teaching Assistant #h(1fr) *2023年1月 -- 2024年6月*
+- 协助教授准备课程材料，设计工程优化课程内容，并为学生提供技术支持，帮助他们理解复杂的概念并解决学习问题。
+- 组织并主持小组讨论，帮助学生将理论知识应用于实际问题。
+- 成果: 协助教授提升了学生对课程内容的兴趣, 期末课程设计的参与人数较去年增加2倍。
+
+*天津津贸国际货运有限公司* 服务器端开发和运维工程师助理 #h(1fr) *2022年1月 -- 2022年9月*
+- 为中小型物流公司设计并开发定制化的物流管理系统，优化订单处理和跟踪效率。
+- 参与公司服务器的日常运维，负责性能监控与问题排查。
+- 协助开发和维护货运管理系统的后端功能，优化数据处理与接口设计，并负责数据库管理与维护，包括数据备份、恢复和性能优化。
+- 技术栈: 使用 Linux、MySQL、Python等工具进行运维和开发工作。
 
 == 项目经历
 #chiline()
@@ -71,40 +107,22 @@
 *港口堆场起重机调度优化与港口问题研究*  (#link("https://gitee.com/qian_zehao/map-source-version2")[#fa-github() Yard Crane Research]) #h(1fr) *2022年4月 -- 至今*
 - 研究港口堆场起重机调度优化, 分析其对运营效率的影响, 特别关注长江内陆港口的调度问题。该项目使用元启发式算法进行调度优化, 具体应用 GJO 算法。我负责算法设计与实现、数据分析。研究成果被 European Journal of Industrial Engineering 收录, 为港口调度优化提供理论支持。
 
-== 实习经历
-#chiline()
-
-*郑州大学* Teaching Assistant #h(1fr) *2023年1月 -- 2024年6月*
-- 协助教授准备课程材料，设计工程优化课程内容，并为学生提供技术支持，帮助他们理解复杂的概念并解决学习问题。  
-- 组织并主持小组讨论，帮助学生将理论知识应用于实际问题。  
-- 成果: 协助教授提升了学生对课程内容的兴趣, 期末课程设计的参与人数较去年增加2倍。
-
-*天津津贸国际货运有限公司* 服务器端开发和运维工程师助理 #h(1fr) *2022年1月 -- 2022年9月*  
-- 为中小型物流公司设计并开发定制化的物流管理系统，优化订单处理和跟踪效率。  
-- 参与公司服务器的日常运维，负责性能监控与问题排查。  
-- 协助开发和维护货运管理系统的后端功能，优化数据处理与接口设计，并负责数据库管理与维护，包括数据备份、恢复和性能优化。  
-- 技术栈: 使用 Linux、MySQL、Python等工具进行运维和开发工作。  
-
-
 == 荣誉和奖项
 #chiline()
 
 - *计算机软件与算法*
+  - 人工智能创新·赋能未来大学创新挑战赛三等奖#h(1fr) *2025年4月*
   - DurHack 2024 英国Hackathon杜伦赛区一等奖 #h(1fr) *2023年11月*
   - ACM/ICPC - 蓝桥杯Python算法竞赛省级二等奖 #h(1fr) *2022年8月*
 - *数学建模*
   - 美国大学生数学建模竞赛(MCM/ICM)优秀奖 #h(1fr) *2023年1月*
   - 第12届Mathor杯全国大学生数学建模竞赛二等奖 #h(1fr) *2022年5月*
 - *创新创业计划竞赛*
+  - 西门子 Xcelerator 平台竞赛最佳创作奖 #h(1fr) *2025 年 1 月*
   - “挑战杯”全国大学生课外学术科技作品竞赛省级一等奖 #h(1fr) *2023年8月*
   - “挑战杯”全国大学生创业计划竞赛省级一等奖 #h(1fr) *2022年8月*
   - 电子商务创新、创意和创业大赛省级一等奖 #h(1fr) *2022年4月*
 - *学术奖学金*
   - 郑州大学优秀学生奖学金 #h(1fr) *2019年 -- 2023年*
 
-== 自我评价
-#chiline()
-
-作为一名具备工业工程本科背景和数据科学硕士学位的专业人士，我拥有扎实的技术能力和数据驱动的思维。我在学术和实践中积累了丰富的经验，特别是在工程优化和数据科学领域。我对解决复杂问题充满热情，并具备出色的分析能力和创新思维。我具备良好的团队合作精神和领导能力，能够在多元化的工作环境中迅速适应并发挥作用。我在研究和项目中展示了高效的工作态度和卓越的项目管理能力，能够有效协调资源，推动项目成功。
-
-#v(1fr) #h(1fr) Updated on #datetime.today().display("[month repr:short] [day], [year]")
+#v(1fr) #h(1fr) 更新于 #datetime.today().display("[month repr:short] [day], [year]")
