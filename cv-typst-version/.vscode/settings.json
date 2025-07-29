@@ -1,4 +1,6 @@
 {
-    "typst-lsp.experimentalFormatterMode": "on",
-    "typst-lsp.exportPdf": "onSave"
+    "tinymist.systemFonts": true,
+    "tinymist.fontPaths": [
+		"./fonts"
+	]
 }
